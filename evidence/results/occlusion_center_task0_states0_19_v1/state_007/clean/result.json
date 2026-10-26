@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "plan_hash": "bfefa5a481ed80d290b34d4f5402b3358395455b9240627469a04230ad62ae7d",
+  "state_id": 7,
+  "condition": "clean",
+  "n_action_steps": 1,
+  "seed": 49,
+  "success": false,
+  "input_calls": 280,
+  "control_steps": 280,
+  "eval_seconds": 372.0482976436615,
+  "videos": [
+    {
+      "path": "state_007/clean/attempt_79ba783ca4e5/videos/eval_episode_0.mp4",
+      "decode_ok": true
+    }
+  ],
+  "attempt": "state_007/clean/attempt_79ba783ca4e5",
+  "completed_utc": "2026-10-11T13:13:52.674369+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "protocol": "occlusion_center_v1",
+  "state_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "conditions": [
+    "clean",
+    "occluded"
+  ],
+  "seed_base": 42,
+  "suite": "libero_spatial",
+  "task_id": 0,
+  "model_repo": "HuggingFaceVLA/smolvla_libero",
+  "vlm_repo": "HuggingFaceTB/SmolVLM2-500M-Instruct",
+  "assets_repo": "lerobot/libero-assets",
+  "use_amp": false,
+  "mask": {
+    "camera": "observation.images.image",
+    "box_yxyx": [
+      96,
+      160,
+      96,
+      160
+    ],
+    "fill": 0.5,
+    "timing": "every_policy_observation"
+  },
+  "note": "新配对对照；不合并旧基线；仅主相机中央6.25%灰色遮挡",
+  "model_revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+  "vlm_revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+  "assets_revision": "0b3ea86be5fe169d0fd036ae63d1070ec09e90f6"
+}
