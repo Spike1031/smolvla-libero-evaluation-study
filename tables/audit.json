@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "scope": "recorded-result recalculation; no inference or training",
+  "series": [
+    "rq1",
+    "original",
+    "round1",
+    "round2"
+  ],
+  "committed_episodes": 160,
+  "aggregates": [
+    {
+      "series": "rq1",
+      "condition": "1",
+      "episodes": 20,
+      "goal_successes": 16,
+      "goal_rate": 0.8,
+      "control_steps": 2367,
+      "eval_seconds": 3385.618220806122
+    },
+    {
+      "series": "rq1",
+      "condition": "5",
+      "episodes": 20,
+      "goal_successes": 15,
+      "goal_rate": 0.75,
+      "control_steps": 2565,
+      "eval_seconds": 1959.9117333889008
+    },
+    {
+      "series": "original",
+      "condition": "clean",
+      "episodes": 20,
+      "goal_successes": 16,
+      "goal_rate": 0.8,
+      "control_steps": 2367,
+      "eval_seconds": 3287.6147944927216
+    },
+    {
+      "series": "original",
+      "condition": "occluded",
+      "episodes": 20,
+      "goal_successes": 12,
+      "goal_rate": 0.6,
+      "control_steps": 3135,
+      "eval_seconds": 4275.505978345871
+    },
+    {
+      "series": "round1",
+      "condition": "clean",
+      "episodes": 20,
+      "goal_successes": 13,
+      "goal_rate": 0.65,
+      "control_steps": 3009,
+      "eval_seconds": 4130.087705850601
+    },
+    {
+      "series": "round1",
+      "condition": "occluded",
+      "episodes": 20,
+      "goal_successes": 10,
+      "goal_rate": 0.5,
+      "control_steps": 3513,
+      "eval_seconds": 4793.333047389984
+    },
+    {
+      "series": "round2",
+      "condition": "clean",
+      "episodes": 20,
+      "goal_successes": 14,
+      "goal_rate": 0.7,
+      "control_steps": 2837,
+      "eval_seconds": 3630.9094738960266
+    },
+    {
+      "series": "round2",
+      "condition": "occluded",
+      "episodes": 20,
+      "goal_successes": 14,
+      "goal_rate": 0.7,
+      "control_steps": 2848,
+      "eval_seconds": 3635.911242723465
+    }
+  ]
+}

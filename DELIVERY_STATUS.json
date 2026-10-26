@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-26",
+  "main_records": 160,
+  "main_recalculation": "passed",
+  "later_records": 38,
+  "unique_later_rollouts": 34,
+  "reused_later_records": 4,
+  "verified_video_links": 8,
+  "pdf_pages": 7,
+  "pdf_visual_review": "passed",
+  "new_training_or_simulation": false,
+  "public_repository_created": false,
+  "scope": "recorded evidence reproduction; full training/simulation environment not bundled",
+  "repository_visibility": "private",
+  "repository_url": "https://github.com/Spike1031/smolvla-libero-evaluation-study"
+}

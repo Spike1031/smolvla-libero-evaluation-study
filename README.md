@@ -69,8 +69,8 @@ The 005/014 clean failure observations belong to round 2; both cases succeeded i
 
 ## Delivery status
 
-This is an assembled, unpublished review package dated 26 October 2026. All main table calculations pass. Eight selected video identities were checked against committed paths. The PDF was rendered for layout inspection. No training or simulation was run during assembly; no cloud source file was changed or deleted. GitHub publication and a complete end-to-end rerun are separate steps.
+This private review repository contains the package assembled on 26 October 2026. All main table calculations pass. Eight selected video identities were checked against committed paths. The PDF was rendered for layout inspection. No training or simulation was run during assembly; no cloud source file was changed or deleted. Public release and a complete end-to-end rerun remain separate steps.
 
 ## Trace storage
 
-The two later JSON trace archives are stored as lossless `.json.gz` files. The verification script decompresses them in memory; the original decompressed bytes and reported scores are unchanged.
+The two later JSON archives are losslessly compressed and split into small binary parts under `evidence/later/*.json.gz.parts/`. Each index records part, compressed-stream and original-byte SHA-256 checksums. `analysis/verify_later_traces.py` verifies and decompresses the parts automatically in memory. No manual reconstruction is needed.
