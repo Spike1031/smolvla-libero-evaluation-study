@@ -65,8 +65,6 @@ The package supports CPU recalculation of the principal comparisons from include
 
 Full training/simulation re-execution has not been independently tested in a fresh runtime. Policy weights and dependencies retain their upstream terms. No new license is asserted for third-party assets. Source/video links may require access to the original Drive; they are not a public anonymous-access guarantee. The local evidence includes project paths and should be reviewed before public release.
 
-The 005/014 clean failure observations belong to round 2; both cases succeeded in the original and round 1. This attribution is verified in notebook 08, and corrected in the provenance supplement.
-
 ## Delivery status
 
 This private review repository contains the package assembled on 26 October 2026. All main table calculations pass. Eight selected video identities were checked against committed paths. The PDF was rendered for layout inspection. No training or simulation was run during assembly; no cloud source file was changed or deleted. Public release and a complete end-to-end rerun remain separate steps.
