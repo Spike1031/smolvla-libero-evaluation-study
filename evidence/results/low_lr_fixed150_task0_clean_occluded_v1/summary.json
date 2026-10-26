@@ -1,0 +1,43 @@
+{
+  "plan_hash": "681d7a73b7c12e96af8d42f4070abc8a75c1d8670080194d088a96e91b2da83d",
+  "total_completed": 40,
+  "total_requested": 40,
+  "paired_state_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "groups": {
+    "clean": {
+      "completed": 20,
+      "successes": 14,
+      "paired_n": 20,
+      "paired_success_rate": 0.7,
+      "paired_eval_seconds": 3630.9094738960266
+    },
+    "occluded": {
+      "completed": 20,
+      "successes": 14,
+      "paired_n": 20,
+      "paired_success_rate": 0.7,
+      "paired_eval_seconds": 3635.911242723465
+    }
+  }
+}

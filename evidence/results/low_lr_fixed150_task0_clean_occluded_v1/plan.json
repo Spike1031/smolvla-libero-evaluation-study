@@ -1,0 +1,62 @@
+{
+  "protocol": "low_lr_fixed150_occlusion_center_v1",
+  "state_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "conditions": [
+    "clean",
+    "occluded"
+  ],
+  "seed_base": 42,
+  "suite": "libero_spatial",
+  "task_id": 0,
+  "model_repo": "HuggingFaceVLA/smolvla_libero",
+  "vlm_repo": "HuggingFaceTB/SmolVLM2-500M-Instruct",
+  "assets_repo": "lerobot/libero-assets",
+  "use_amp": false,
+  "mask": {
+    "camera": "observation.images.image",
+    "box_yxyx": [
+      96,
+      160,
+      96,
+      160
+    ],
+    "fill": 0.5,
+    "timing": "every_policy_observation"
+  },
+  "note": "学习率1e-6，固定第150步；沿用20状态与两种条件；开发集配对复测，不宣称独立未见测试",
+  "model_revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102",
+  "vlm_revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467",
+  "assets_revision": "0b3ea86be5fe169d0fd036ae63d1070ec09e90f6",
+  "prior_plan_hash": "bfefa5a481ed80d290b34d4f5402b3358395455b9240627469a04230ad62ae7d",
+  "selected_update": 150,
+  "export_sha256": {
+    "policy_postprocessor_step_1_unnormalizer_processor.safetensors": "7008ba73c73887e5a7e631d478de9563ec5a0c51b7f0327f2530d7326c4b039e",
+    "policy_preprocessor_step_5_normalizer_processor.safetensors": "7008ba73c73887e5a7e631d478de9563ec5a0c51b7f0327f2530d7326c4b039e",
+    "policy_preprocessor.json": "29267ff4423fcce93bbd76ad0f386905f9de5d267ca13379a5795a514a81b7a9",
+    "model.safetensors": "0c4e5d8416674322ce6791d0fa82c45867079f16fafbae32f3f099f21aad4970",
+    "policy_postprocessor.json": "ad2d22405cb63be4932c4a4d9a69bc9953df02a01235c5f420b679dbe6bfe7c5",
+    "config.json": "9aec46548bb90d7564b9690cf42f235c79b8cf63e8f4cb4b29104212f1ff21ca"
+  },
+  "training_report_sha256": "5e6dd10d51e44915eecadfa5c23b1d70bb7dd39a2607958fd7940670805e8efd"
+}
