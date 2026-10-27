@@ -6,7 +6,7 @@ A single-task empirical study using SmolVLA, LeRobot and LIBERO. The tested fine
 
 1. Read [the research report](report/research_report.pdf).
 2. Inspect [the main results](tables/summary.csv) and [paired repairs/regressions](tables/transitions.csv).
-3. Watch [eight representative videos](videos/README.md).
+3. Inspect [representative cases and optional video links](videos/README.md). Video playback is not required to reproduce the tables.
 4. Reproduce the main tables with the command below. No GPU is needed.
 
 ## Reproduce the tables from included evidence
@@ -63,11 +63,13 @@ Cases are paired development initial states, not independent condition-rollouts.
 
 The package supports CPU recalculation of the principal comparisons from included records. It does not bundle a clean training/simulation environment, demonstration images, model checkpoints or video binaries. The detailed historical map identifies external experiment entry points and data dependencies. The optional Colab notebook mounts the existing Drive project rather than uploading this package automatically.
 
-Full training/simulation re-execution has not been independently tested in a fresh runtime. Policy weights and dependencies retain their upstream terms. No new license is asserted for third-party assets. Source/video links may require access to the original Drive; they are not a public anonymous-access guarantee. The local evidence includes project paths and should be reviewed before public release.
+Full training/simulation re-execution has not been independently tested in a fresh runtime. Policy weights and dependencies retain their upstream terms. No new license is asserted for third-party assets. Source/video links may require access to the original Drive; they are not a public anonymous-access guarantee. Historical paths identify experiment artifacts; they are not portable installation paths. See [release review](docs/PUBLIC_RELEASE_REVIEW.md) for the inspected scope and remaining access limitations.
 
-## Delivery status
+## Reproducibility and release scope
 
-This private review repository contains the package assembled on 26 October 2026. All main table calculations pass. Eight selected video identities were checked against committed paths. The PDF was rendered for layout inspection. No training or simulation was run during assembly; no cloud source file was changed or deleted. Public release and a complete end-to-end rerun remain separate steps.
+This repository presents a completed single-task evaluation study, including negative fine-tuning results. The recorded-result calculations are reproducible on CPU. Model training, simulation rollouts and video playback are separate from those calculations; no clean end-to-end rerun is claimed.
+
+The repository was assembled on 26 October 2026 and prepared for external review on 27 October 2026. Visibility remains private until the owner elects to publish. Historical provenance documents are retained as dated records, not current access guarantees. See [third-party notices](THIRD_PARTY_NOTICES.md) and [release review](docs/PUBLIC_RELEASE_REVIEW.md).
 
 ## Trace storage
 

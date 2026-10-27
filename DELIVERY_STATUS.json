@@ -12,5 +12,10 @@
   "public_repository_created": false,
   "scope": "recorded evidence reproduction; full training/simulation environment not bundled",
   "repository_visibility": "private",
-  "repository_url": "https://github.com/Spike1031/smolvla-libero-evaluation-study"
+  "repository_url": "https://github.com/Spike1031/smolvla-libero-evaluation-study",
+  "public_release_preparation_date": "2026-10-27",
+  "public_release_preparation": "documentation_and_targeted_review_completed",
+  "anonymous_video_playback": "unverified_http_429",
+  "commit_author_email": "present_in_existing_history",
+  "upstream_license_declarations": "checked_current_sources_not_historical_pins"
 }

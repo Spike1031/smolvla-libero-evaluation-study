@@ -1,15 +1,17 @@
-# Third-party materials and access
+# Third-party materials and attribution
 
-This private review package reports experiments using the following upstream projects and artifacts:
+This evaluation study uses the upstream projects below. License declarations were inspected at their linked source locations on 27 October 2026; these checks do not pin the historical experimental dependencies to exact source revisions.
 
-- SmolVLA / LeRobot: https://github.com/huggingface/lerobot
-- LIBERO: https://github.com/Lifelong-Robot-Learning/LIBERO
-- Policy checkpoint: https://huggingface.co/HuggingFaceVLA/smolvla_libero
-- VLM checkpoint: https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Instruct
-- Original demonstration dataset: https://huggingface.co/datasets/HuggingFaceVLA/libero
+| Upstream artifact | Source | Declared license |
+|---|---|---|
+| LeRobot / SmolVLA implementation | https://github.com/huggingface/lerobot | Apache-2.0 |
+| LIBERO simulation benchmark | https://github.com/Lifelong-Robot-Learning/LIBERO | MIT |
+| Evaluated policy checkpoint | https://huggingface.co/HuggingFaceVLA/smolvla_libero | Apache-2.0 (model card) |
+| VLM checkpoint | https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Instruct | Apache-2.0 (redirected model card) |
+| Original demonstration dataset | https://huggingface.co/datasets/HuggingFaceVLA/libero | Apache-2.0 (dataset card) |
 
-Model weights, original demonstration images and videos are not included in this repository. Experiment records, derived measurements and report material are included to support the stated empirical findings. Historical scoring functions are identified as such; their inclusion does not grant a new license to upstream code.
+Upstream license texts are retained in `licenses/LeRobot-Apache-2.0.txt` and `licenses/LIBERO-MIT.txt`, including their copyright notices. Model weights, original demonstration images, upstream library source trees and video binaries are not bundled. Listing a dependency does not mean its source code was authored in this project.
 
-No blanket open-source license is applied to this mixed package. Upstream code, checkpoints, datasets and dependencies retain their applicable terms. This notice is attribution and scope documentation, not confirmation that every upstream redistribution right has been independently reviewed. Public release requires a separate license/attribution review.
+`analysis/reproduce_results.py` recalculates the study tables; `analysis/verify_later_traces.py` loads and verifies packaged evidence; `analysis/finish_scoring.py` preserves the historical experiment scoring logic. These are study analysis artifacts, not replacements for the upstream policy or simulator. Exact derivation of every historical scoring line from the original notebooks has not been independently established; no blanket license is asserted for the mixed repository. Inclusion of the upstream license texts does not relicense study artifacts or establish every third-party redistribution right.
 
-Video and historical-source links point to the existing project Drive and may require permission. No Drive sharing state has been changed. Do not describe those links as publicly accessible until anonymous access has been checked or the selected media have been deliberately published.
+Reports and derived records retain their provenance. Source and video links may require the original Drive access. Public video playback was not verified, and Drive sharing was not modified. See `docs/PUBLIC_RELEASE_REVIEW.md` for the review boundary.
