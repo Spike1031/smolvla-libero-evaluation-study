@@ -1,6 +1,6 @@
 # Project demonstration selection
 
-Six clips selected to explain the experimental progression, not to estimate population success or show a new successful policy. The owner still needs to verify anonymous playback. Links identify historical Drive files; no sharing permission was changed.
+Six clips selected to explain the experimental progression, not to estimate population success or show a new successful policy. All six files were checked on 28 October 2026: Drive permission metadata includes `type=anyone`, `role=reader`, `allowFileDiscovery=false` (anyone with the link can view). This verifies sharing permissions, not a completed anonymous playback test. Links identify historical Drive files; no sharing permission was changed.
 
 | ID | Clip | Purpose |
 |---|---|---|

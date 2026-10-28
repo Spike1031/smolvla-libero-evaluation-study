@@ -26,3 +26,7 @@ The report and packaged calculation evidence can be reviewed independently of vi
 The owner explicitly accepts disclosure of the RWTH author email in the existing commit history. This privacy choice is resolved; history remains unchanged. It does not itself verify video playback or change repository visibility.
 
 Six specific video files are listed in `videos/DEMO_SELECTION.md` for owner-side sharing and anonymous playback verification. No permission change is claimed.
+
+## Selected video permission verification 28 October 2026
+
+Drive permission metadata confirms anyone-with-link reader access for all six files in `videos/DEMO_SELECTION.md`. This resolves the permission-setting question for that selection, not for all eight archival clips. Anonymous playback remains a separate check; no end-to-end playback test is asserted.
