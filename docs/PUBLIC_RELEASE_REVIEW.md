@@ -20,3 +20,9 @@ Review date: 27 October 2026. Repository: Spike1031/smolvla-libero-evaluation-st
 ## Release boundary
 
 The report and packaged calculation evidence can be reviewed independently of video access. A public evidence repository can disclose the optional-demo limitation, but the owner must decide whether to expose the existing author-email history. Repository visibility and Drive sharing remain unchanged by this preparation. No force-push or history rewrite was performed.
+
+## Owner decision recorded 28 October 2026
+
+The owner explicitly accepts disclosure of the RWTH author email in the existing commit history. This privacy choice is resolved; history remains unchanged. It does not itself verify video playback or change repository visibility.
+
+Six specific video files are listed in `videos/DEMO_SELECTION.md` for owner-side sharing and anonymous playback verification. No permission change is claimed.

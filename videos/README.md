@@ -1,5 +1,7 @@
 # Later finishing diagnosis and optional video links
 
+For the six-clip project-wide presentation and the exact files to share, start with [the demonstration selection](DEMO_SELECTION.md).
+
 **Access status (27 October 2026):** anonymous checks of all eight Drive links returned HTTP 429. This does not establish whether the files are public or private. Playback is unverified; these are archival links, not a guaranteed public demo. No sharing permissions were changed. The included result records and trace checks work without these videos.
 
 These eight clips are **only the notebook-15 extended finishing series**. They do not illustrate every project stage. See [selection rationale and unresolved cases](../docs/CASE_RECONCILIATION.md) and the [trace linkage table](../tables/video_protocol_links.csv).

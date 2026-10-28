@@ -26,5 +26,8 @@
   "hash_matched_project_evaluation_runners": 6,
   "packaged_training_rounds": 2,
   "training_source_historical_hash_status": "not_recorded_in_training_reports",
-  "source_inspection_date": "2026-10-28"
+  "source_inspection_date": "2026-10-28",
+  "owner_accepts_historical_email_disclosure": true,
+  "public_demo_selection_count": 6,
+  "public_demo_access": "awaiting_owner_anonymous_playback_check"
 }
