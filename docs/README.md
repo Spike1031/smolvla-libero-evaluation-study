@@ -1,3 +1,5 @@
+> Historical document dated 25 October 2026. For the current source inventory and protocol explanation, read [experiment sources](../experiments/README.md) and [training/source audit](TRAINING_AND_SOURCE_AUDIT.md). Historical completion-status statements below are retained as dated provenance.
+
 # SmolVLA: Single-Task Evaluation and Adaptation Study
 
 This project studies action execution steps, central visual occlusion, and limited-demonstration adaptation of a pretrained SmolVLA policy in LeRobot/LIBERO. The task is to pick up the black bowl between the plate and ramekin and place it on the plate (`libero_spatial`, task 0).

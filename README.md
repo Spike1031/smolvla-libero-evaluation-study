@@ -7,7 +7,7 @@ A single-task empirical study using SmolVLA, LeRobot and LIBERO. The tested fine
 1. Read the [project progression](docs/PROJECT_STORY.md): why each experiment was run, what failed and why this adaptation line stopped.
 2. Read the [success and termination protocols](docs/EVALUATION_PROTOCOLS.md). Early goal attainment is not complete finishing.
 3. Inspect [case reconciliation](docs/CASE_RECONCILIATION.md), [main tables](tables/summary.csv) and [paired repairs/regressions](tables/transitions.csv).
-4. Browse the [historical evaluation runner](experiments/README.md) and [later diagnostic videos](videos/README.md). The eight clips explain the later finishing experiments only; public playback remains unverified.
+4. Browse the [historical experiment sources](experiments/README.md) and [later diagnostic videos](videos/README.md). The eight clips explain the later finishing experiments only; public playback remains unverified.
 5. Read the [dated report](report/research_report.pdf), supplemented by the protocol notes above, and reproduce the recorded calculations below.
 
 ## Reproduce the tables from included evidence
@@ -59,6 +59,10 @@ Cases are paired development initial states, not independent condition-rollouts.
 | `docs/README.md` | Detailed historical entry-point map and computational context |
 | `notebooks/` | Optional Colab CPU calculator for the existing Drive project |
 | `MANIFEST.sha256` | Hash inventory of package files |
+
+## Source and training inspection
+
+The [source map](experiments/README.md) includes all four early evaluation runners, both initial training scripts, the training smoke test and both later evaluation runners. Six evaluation runners match their historical source hashes. Included training reports and protocols agree on the data split and run settings; historical training source byte identity is not established. Read the [audit and remaining dependencies](docs/TRAINING_AND_SOURCE_AUDIT.md) before attempting a GPU run.
 
 ## Scope and access
 

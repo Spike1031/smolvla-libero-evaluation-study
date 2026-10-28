@@ -22,5 +22,9 @@
   "historical_round1_runner_hash_match": true,
   "linked_later_video_records": 8,
   "early_full_finish_rate": "unknown",
-  "end_to_end_rerun_package_complete": false
+  "end_to_end_rerun_package_complete": false,
+  "hash_matched_project_evaluation_runners": 6,
+  "packaged_training_rounds": 2,
+  "training_source_historical_hash_status": "not_recorded_in_training_reports",
+  "source_inspection_date": "2026-10-28"
 }

@@ -13,5 +13,48 @@
     "sha256": "986dbb171a3f1c78f0c050099bc05af16e79aab9ea70a669813061c5cee78f10",
     "matches_historical_runner": true,
     "source_notebook": "https://colab.research.google.com/drive/1vakHYZiaUQ4iO_Cx_tL_v9jTCbxYlDDo"
+  },
+  "03_paired_eval_v1.py": {
+    "sha256": "384f25c39f98abdd35b51683b4117b3e5e353d8852f5603874c9404ab485bcc8",
+    "matches_historical_runner": true,
+    "source": "https://drive.google.com/file/d/1rnAf7FefHoPvLMVQMx1Eyp-FKWWBw3mZ/view?usp=drivesdk"
+  },
+  "04_occlusion_center_v1.py": {
+    "sha256": "7c2552b90ea21de0091e402005d2a02f2059f6d78bd98dab8084c6a803f404c0",
+    "matches_historical_runner": true,
+    "source": "https://drive.google.com/file/d/1s1zX8Mdvw-pALEREhC3pr4RmU3EBXKW4/view?usp=drivesdk"
+  },
+  "12_low_lr_fixed150_eval_v1.py": {
+    "sha256": "4dcc56ba0d9aae2293cffcfc8553327a5c65e8bca0a36e5f05510ec0ee38035b",
+    "matches_historical_runner": true,
+    "source": "https://drive.google.com/file/d/1TR-eJZW7c9eExVTZaYNaFLdTM991MvY2/view?usp=drivesdk"
+  },
+  "18_finish_policy_eval_v1.py": {
+    "sha256": "1a4891181e0fa5e3984aee778b93e4b1fb07eede555cc269fd60013685ec4677",
+    "matches_historical_runner": true,
+    "source": "https://drive.google.com/file/d/1D4xfEytYdxDdK7r8DDNk8YzQ6noHc5bF/view?usp=drivesdk"
+  },
+  "25_eval19_four_cases_v1.py": {
+    "sha256": "437a0c1866e45f8f9dbdd2cbf1d70983089ee6f276f9e2341ce7ad3b1daf54c4",
+    "matches_historical_runner": true,
+    "source": "https://drive.google.com/file/d/17FBx6UOXAttwH96-nJKpAHB0x3jtJggg/view?usp=drivesdk"
+  },
+  "06_training_smoke_v1.py": {
+    "sha256": "5718d0a26d9db130467630e196af83e9ce43215d770509abcd60a42817837660",
+    "matches_historical_runner": null,
+    "source": "https://drive.google.com/file/d/1pFeL8EyPTSEDIY_60rrFdcxCLkXk4zDH/view?usp=drivesdk",
+    "verification": "Current Drive source; historical training report contains no runner source hash; configuration checked against protocols."
+  },
+  "07_task0_finetune_v1.py": {
+    "sha256": "56dd11fac0639f52741cc1516ebcaf39266f094737b6e1f993b9195ec51bedb6",
+    "matches_historical_runner": null,
+    "source": "https://drive.google.com/file/d/1MWaS4T-YwAK38rF_ZKjUM_2Q7N2-LAlk/view?usp=drivesdk",
+    "verification": "Current Drive source; historical training report contains no runner source hash; configuration checked against protocols."
+  },
+  "10_low_lr_fixed150_v1.py": {
+    "sha256": "b28a5a6298681d46ae6ad8f8921cf60321fc6ad2e15193a3cfb0600125b2534c",
+    "matches_historical_runner": null,
+    "source": "https://drive.google.com/file/d/1pIFuto6M0ywduzqWaAbvucBYaIHh2pAW/view?usp=drivesdk",
+    "verification": "Current Drive source; historical training report contains no runner source hash; configuration checked against protocols."
   }
 }

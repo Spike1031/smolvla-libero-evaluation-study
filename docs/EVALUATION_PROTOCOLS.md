@@ -13,11 +13,11 @@ The LeRobot v0.6.1 environment and evaluation sources were retrieved and their b
 
 Thus approximately 80 saved frames play in one second; 280 frames play in approximately 3.5 seconds. Exact duration requires inspecting that specific video. Playback duration is not wall-clock inference duration or a calibrated simulation-time measurement. Training update 150 is a checkpoint-selection/update count, not the 280-action rollout cap.
 
-The original, round-1 and round-2 result fields support historical benchmark-goal attainment. They cannot establish what would happen after their early termination. First-round runner `experiments/08_finetuned_eval_v1.py` is extracted verbatim from notebook 04 and matches the historical runner hash. It delegates episode evaluation to the verified LeRobot evaluator. Other historical runners remain external until individually extracted and checked; common use of a protocol is not proof every wrapper was identical.
+The original, round-1 and round-2 result fields support historical benchmark-goal attainment. They cannot establish what would happen after their early termination. First-round runner `experiments/08_finetuned_eval_v1.py` is extracted verbatim from notebook 04 and matches the historical runner hash. It delegates episode evaluation to the verified LeRobot evaluator. The other three early runners have now also been recovered and their source hashes match the corresponding historical records. See `experiments/README.md` for roles and execution dependencies.
 
 ## Extended finishing protocol
 
-Notebook-15 packaged traces contain 440 policy actions per episode. Three separate quantities must be reported:
+Notebook-15 packaged traces contain 440 policy actions per episode. The recovered, hash-matching runner explicitly overrides termination to continue the same episode, sets video playback to 20 fps and saves 441 frames including the final observation; this is different from the early 80-fps clips. Three separate quantities must be reported:
 
 1. `benchmark_goal_within_280`: the goal was true at least once in the first 280 actions.
 2. `goal_at_end`: the goal is true at action 440.

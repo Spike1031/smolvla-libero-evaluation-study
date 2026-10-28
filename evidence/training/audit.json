@@ -1,0 +1,35 @@
+{
+  "split_disjoint": true,
+  "training_episodes": 36,
+  "validation_episodes": 9,
+  "runs": [
+    {
+      "series": "task0_finetune_v1",
+      "updates": 300,
+      "lr": 1e-05,
+      "selected": {
+        "step": 150,
+        "loss": 0.7092655472181462,
+        "file": "candidate_000150.safetensors",
+        "sha256": "ceba1ff9b037256bba8b72df644012721104ea468f018e7038b9d06adad6960b"
+      },
+      "baseline_validation_loss": 0.7056507170200348,
+      "protocol_matches_report": true,
+      "split_matches_packaged_split": true
+    },
+    {
+      "series": "task0_finetune_lr1e-6_fixed150_v1",
+      "updates": 150,
+      "lr": 1e-06,
+      "selected": {
+        "step": 150,
+        "loss": 0.7060868166111134,
+        "file": "candidate_000150.safetensors",
+        "sha256": "15339265999b450bcee0a7b5ca36941c34443fce27276098ada4f87f4bf3c385"
+      },
+      "baseline_validation_loss": 0.7056507170200348,
+      "protocol_matches_report": true,
+      "split_matches_packaged_split": true
+    }
+  ]
+}
