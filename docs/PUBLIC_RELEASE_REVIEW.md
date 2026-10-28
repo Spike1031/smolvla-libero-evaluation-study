@@ -25,8 +25,12 @@ The report and packaged calculation evidence can be reviewed independently of vi
 
 The owner explicitly accepts disclosure of the RWTH author email in the existing commit history. This privacy choice is resolved; history remains unchanged. It does not itself verify video playback or change repository visibility.
 
-Six specific video files are listed in `videos/DEMO_SELECTION.md` for owner-side sharing and anonymous playback verification. No permission change is claimed.
+Six specific video files are listed in `videos/README.md` for owner-side sharing and anonymous playback verification. No permission change is claimed.
 
 ## Selected video permission verification 28 October 2026
 
-Drive permission metadata confirms anyone-with-link reader access for all six files in `videos/DEMO_SELECTION.md`. This resolves the permission-setting question for that selection, not for all eight archival clips. Anonymous playback remains a separate check; no end-to-end playback test is asserted.
+Drive permission metadata confirms anyone-with-link reader access for all six files in `videos/README.md`. This resolves the permission-setting question for that selection, not for all eight archival clips. Anonymous playback remains a separate check; no end-to-end playback test is asserted.
+
+## Unified catalogue update 28 October 2026
+
+All 11 distinct video files now have verified anyone-with-link reader permissions. The owner confirms anonymous playback of the six recommended clips; supplementary playback is not independently confirmed. One CSV inventory replaces the overlapping six/eight catalogues. Historical review statements retain their dates.

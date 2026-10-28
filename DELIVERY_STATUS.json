@@ -29,6 +29,10 @@
   "source_inspection_date": "2026-10-28",
   "owner_accepts_historical_email_disclosure": true,
   "public_demo_selection_count": 6,
-  "public_demo_access": "anyone_with_link_reader_permissions_verified_playback_not_fully_tested",
-  "public_demo_permission_check": "six_of_six_anyone_reader_verified_2026-10-28"
+  "public_demo_access": "owner_confirms_anonymous_playback_for_six_recommended",
+  "public_demo_permission_check": "six_of_six_anyone_reader_verified_2026-10-28",
+  "unique_indexed_videos": 11,
+  "recommended_video_count": 6,
+  "supplementary_video_count": 5,
+  "public_video_permissions": "11_of_11_anyone_reader_verified"
 }

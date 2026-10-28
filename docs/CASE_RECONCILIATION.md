@@ -1,3 +1,5 @@
+> Inventory update, 28 October 2026: the original eight finishing clips are now V04–V11 in the [unified index](../videos/README.md); V01–V03 add early comparisons. Historical eight-row checks below retain their original scope.
+
 # Case and video reconciliation
 
 The eight indexed videos all belong to notebook 15, not to the initial benchmark or the first two fine-tuning rounds. Their role is later finishing diagnosis. The index is not a representative estimate of the entire project's success rate.
@@ -23,4 +25,4 @@ All eight have automatic complete finish false. Do not infer that every one fail
 
 ## Presentation plan
 
-Keep these eight clips as the later-diagnosis collection. A project-wide demo should separately include an early clean/masked pair, a verified original/adapted repair or regression pair, and an extended finishing pair. The early pairs are not yet selected and verified. Do not publish an arbitrary clip as a full-finish success. No Drive sharing change is required to complete this record audit.
+Keep these eight clips as the later-diagnosis collection. A project-wide demo should separately include an early clean/masked pair, a verified original/adapted repair or regression pair, and an extended finishing pair. The early comparison paths have now been resolved and are listed as V01–V03 in the unified index; no new binary visual review is claimed. Do not publish an arbitrary clip as a full-finish success. No Drive sharing change is required to complete this record audit.

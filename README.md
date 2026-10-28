@@ -7,7 +7,7 @@ A single-task empirical study using SmolVLA, LeRobot and LIBERO. The tested fine
 1. Read the [project progression](docs/PROJECT_STORY.md): why each experiment was run, what failed and why this adaptation line stopped.
 2. Read the [success and termination protocols](docs/EVALUATION_PROTOCOLS.md). Early goal attainment is not complete finishing.
 3. Inspect [case reconciliation](docs/CASE_RECONCILIATION.md), [main tables](tables/summary.csv) and [paired repairs/regressions](tables/transitions.csv).
-4. Browse the [historical experiment sources](experiments/README.md) and [project demonstration selection](videos/DEMO_SELECTION.md). The six-clip selection covers early comparisons and later finishing diagnosis; all six selected files have verified anyone-with-link reader permissions; actual anonymous playback has not been fully tested. The separate eight-clip archive is limited to later finishing experiments.
+4. Browse the [historical experiment sources](experiments/README.md) and [unified video index](videos/README.md). The single catalogue contains 11 unique videos, with six recommended clips and five supplementary clips. All have anyone-with-link reader permissions; the owner confirms anonymous playback for the six recommended clips.
 5. Read the [dated report](report/research_report.pdf), supplemented by the protocol notes above, and reproduce the recorded calculations below.
 
 ## Reproduce the tables from included evidence
