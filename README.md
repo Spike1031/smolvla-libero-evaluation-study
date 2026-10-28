@@ -68,13 +68,13 @@ The [source map](experiments/README.md) includes all four early evaluation runne
 
 The package supports CPU recalculation of the principal comparisons from included records. It does not bundle a clean training/simulation environment, demonstration images, model checkpoints or video binaries. The detailed historical map identifies external experiment entry points and data dependencies. The optional Colab notebook mounts the existing Drive project rather than uploading this package automatically.
 
-Full training/simulation re-execution has not been independently tested in a fresh runtime. Policy weights and dependencies retain their upstream terms. No new license is asserted for third-party assets. Source/video links may require access to the original Drive; they are not a public anonymous-access guarantee. Historical paths identify experiment artifacts; they are not portable installation paths. See [release review](docs/PUBLIC_RELEASE_REVIEW.md) for the inspected scope and remaining access limitations.
+Full training/simulation re-execution has not been independently tested in a fresh runtime. Policy weights and dependencies retain their upstream terms. No new license is asserted for third-party assets. Selected videos have verified anyone-with-link reader permissions; anonymous playback is owner-confirmed for the six recommended clips. Other historical source links may require access to the original Drive. Historical paths identify experiment artifacts; they are not portable installation paths. See [release review](docs/PUBLIC_RELEASE_REVIEW.md) for the inspected scope and remaining access limitations.
 
 ## Reproducibility and release scope
 
 This repository presents a completed single-task evaluation study, including negative fine-tuning results. The recorded-result calculations are reproducible on CPU. Model training, simulation rollouts and video playback are separate from those calculations; no clean end-to-end rerun is claimed.
 
-The repository was assembled on 26 October 2026 and prepared for external review on 27 October 2026. Visibility remains private until the owner elects to publish. Historical provenance documents are retained as dated records, not current access guarantees. See [third-party notices](THIRD_PARTY_NOTICES.md) and [release review](docs/PUBLIC_RELEASE_REVIEW.md).
+The repository was assembled on 26 October 2026 and prepared for external review on 27 October 2026. The owner authorized public release on 28 October 2026; live GitHub visibility is authoritative. Historical provenance documents are retained as dated records, not current access guarantees. See [third-party notices](THIRD_PARTY_NOTICES.md) and [release review](docs/PUBLIC_RELEASE_REVIEW.md).
 
 ## Trace storage
 

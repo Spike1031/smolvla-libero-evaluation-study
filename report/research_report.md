@@ -1,5 +1,7 @@
 # Execution Steps, Visual Occlusion and Limited-Demonstration Adaptation of SmolVLA
 
+> Release note, 28 October 2026: this is the dated 26 October report, matching the archived PDF. Subsequent source/hash inspection and video linkage are documented in [the source audit](../docs/TRAINING_AND_SOURCE_AUDIT.md), [protocol definitions](../docs/EVALUATION_PROTOCOLS.md) and [the unified 11-video catalogue](../videos/README.md). Statements below about pending delivery describe the report date, not current release readiness. No experimental scores have changed.
+
 ## A single-task empirical study in LIBERO
 
 **Research report, version 1 — 26 October 2026**  

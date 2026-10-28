@@ -1,36 +1,31 @@
-# Public release preparation review
+# Public release review
 
-Review date: 27 October 2026. Repository: Spike1031/smolvla-libero-evaluation-study.
+Current review: **28 October 2026**. Repository: `Spike1031/smolvla-libero-evaluation-study`.
 
-## Completed checks
+## Current decision
 
-- Inspected the main branch and all 15 reachable commits before this preparation change. Their trees contain 237 unique historical blobs: 235 current files and two earlier README versions. No additional historical file versions were hidden by deletion in this reachable history.
-- Verified the pre-change packaged files against the included SHA-256 inventory. The owner's most recent README edit was preserved as the starting point for this preparation.
-- Scanned 198 current text/archive payloads and both historical README versions for common GitHub/Hugging Face credential formats and private-key headers: no matches. This is a targeted scan, not a guarantee against every secret format.
-- No email addresses or Windows/macOS home-directory patterns were found in the current text-file scan. Historical Colab/project paths remain as provenance; they are not usernames or portable execution paths.
-- Read the upstream LeRobot Apache-2.0 and LIBERO MIT license texts and the three Hugging Face model/dataset card declarations. Retained upstream notices and documented the licensing boundary.
-- Updated the project landing page to distinguish recorded-evidence reproduction from new training or simulation. No new inference, training or rollout was performed.
+The owner authorized publication after final checks. The repository is suitable for public review as a single-task evaluation and failure-analysis study, with the limitations below. Live GitHub visibility is authoritative; this document does not itself change access.
 
-## Items requiring an owner decision or separate verification
+## Final checks
 
-1. All 15 existing commits expose the author's RWTH email address in Git metadata. Publishing this history exposes that address. The preparation does not rewrite history or claim it is anonymized.
-2. All eight anonymous Drive requests returned HTTP 429. This is inconclusive, not evidence of either public access or a sign-in wall. The video index now labels playback as unverified and optional. There is no guaranteed public video demo.
-3. Historical experiment source revisions and line-level derivation of the finishing scorer are not fully pinned. Do not describe this repository as a fully licensed upstream source redistribution or an end-to-end training reproduction.
+- Compared all 264 pre-release repository blobs against local copies. One video CSV differed only in line-ending serialization; retained the exact remote bytes and rebuilt the SHA-256 inventory. No experimental result was changed.
+- Recalculated all 160 early episode records: passed. Original 28/40, round 1 23/40, round 2 28/40; paired repairs/regressions retained.
+- Verified 38 later trace records, representing 34 distinct rollouts and four reused baselines: passed.
+- Verified one video catalogue with 11 unique files: three early and eight extended clips. Record identities and stored labels match; this is not fresh video decoding or a frame-level review.
+- All 11 video files have verified anyone-with-link reader permission metadata. The owner confirms anonymous playback of the six recommended clips; supplementary streaming has not been independently confirmed.
+- All local Markdown file destinations resolve. All 13 packaged Python sources parse. The final hash inventory is checked after editing.
+- A targeted current-text credential scan found no common GitHub/Hugging Face/AWS access-key patterns or private-key headers. The previous historical review inspected 15 reachable commits and 237 unique historical blobs; these covered the 235 then-current files and two older README versions. This is a targeted scan, not a guarantee against every secret format.
+- The owner accepts disclosure of the RWTH author email in existing Git history. No history rewrite was performed.
+- Retained LeRobot Apache-2.0 and LIBERO MIT license notices and upstream model/dataset declarations. No blanket license is asserted for the mixed repository.
 
-## Release boundary
+## Result and source boundaries
 
-The report and packaged calculation evidence can be reviewed independently of video access. A public evidence repository can disclose the optional-demo limitation, but the owner must decide whether to expose the existing author-email history. Repository visibility and Drive sharing remain unchanged by this preparation. No force-push or history rewrite was performed.
+Early benchmark goal attainment does not establish release, withdrawal or stability after termination. Later complete-finish results use a defined conservative automatic rule, complemented by historical owner observations. No tested adaptation produced a verified better autonomous policy. Development cases are not an independent generalization test.
 
-## Owner decision recorded 28 October 2026
+Six evaluation runners match recorded historical hashes. Training reports and protocols are packaged, but historical training-source byte identity and every historical external dependency are not fully pinned. The evidence calculations are reproducible on CPU; a fresh end-to-end training/simulation environment, model weights and demonstration images are not bundled. No GPU inference, training or simulation was performed for release.
 
-The owner explicitly accepts disclosure of the RWTH author email in the existing commit history. This privacy choice is resolved; history remains unchanged. It does not itself verify video playback or change repository visibility.
+The report PDF remains the dated 26 October synthesis. Its delivery-status passages are historical; current source, protocol, access and case-reconciliation notes supplement it. Original records and dated audits are preserved as evidence rather than rewritten to erase uncertainty.
 
-Six specific video files are listed in `videos/README.md` for owner-side sharing and anonymous playback verification. No permission change is claimed.
+## Earlier access checks resolved
 
-## Selected video permission verification 28 October 2026
-
-Drive permission metadata confirms anyone-with-link reader access for all six files in `videos/README.md`. This resolves the permission-setting question for that selection, not for all eight archival clips. Anonymous playback remains a separate check; no end-to-end playback test is asserted.
-
-## Unified catalogue update 28 October 2026
-
-All 11 distinct video files now have verified anyone-with-link reader permissions. The owner confirms anonymous playback of the six recommended clips; supplementary playback is not independently confirmed. One CSV inventory replaces the overlapping six/eight catalogues. Historical review statements retain their dates.
+The 27 October anonymous Drive HTTP 429 responses were inconclusive. They did not establish a permission failure. Subsequent permission metadata and the owner's six-clip playback check supersede that access uncertainty for the recommended selection. The previously overlapping six/eight clip lists have been replaced by one 11-file catalogue.
