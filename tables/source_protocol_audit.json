@@ -1,0 +1,17 @@
+{
+  "lerobot_eval.py": {
+    "sha256": "fddec10c709401dd863814091d525fcd54d41cc6ccf51f7ef8300459cf69b873",
+    "matches_historical_record": true,
+    "source": "https://github.com/huggingface/lerobot/blob/v0.6.1/src/lerobot/scripts/lerobot_eval.py"
+  },
+  "libero.py": {
+    "sha256": "97c984f12331527626812ec19967ef399e545535b3571becf044db2417ae9d71",
+    "matches_historical_record": true,
+    "source": "https://github.com/huggingface/lerobot/blob/v0.6.1/src/lerobot/envs/libero.py"
+  },
+  "08_finetuned_eval_v1.py": {
+    "sha256": "986dbb171a3f1c78f0c050099bc05af16e79aab9ea70a669813061c5cee78f10",
+    "matches_historical_runner": true,
+    "source_notebook": "https://colab.research.google.com/drive/1vakHYZiaUQ4iO_Cx_tL_v9jTCbxYlDDo"
+  }
+}

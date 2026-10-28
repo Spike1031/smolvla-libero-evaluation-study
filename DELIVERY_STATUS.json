@@ -17,5 +17,10 @@
   "public_release_preparation": "documentation_and_targeted_review_completed",
   "anonymous_video_playback": "unverified_http_429",
   "commit_author_email": "present_in_existing_history",
-  "upstream_license_declarations": "checked_current_sources_not_historical_pins"
+  "upstream_license_declarations": "checked_current_sources_not_historical_pins",
+  "protocol_audit_date": "2026-10-28",
+  "historical_round1_runner_hash_match": true,
+  "linked_later_video_records": 8,
+  "early_full_finish_rate": "unknown",
+  "end_to_end_rerun_package_complete": false
 }

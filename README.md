@@ -4,10 +4,11 @@ A single-task empirical study using SmolVLA, LeRobot and LIBERO. The tested fine
 
 ## Start here
 
-1. Read [the research report](report/research_report.pdf).
-2. Inspect [the main results](tables/summary.csv) and [paired repairs/regressions](tables/transitions.csv).
-3. Inspect [representative cases and optional video links](videos/README.md). Video playback is not required to reproduce the tables.
-4. Reproduce the main tables with the command below. No GPU is needed.
+1. Read the [project progression](docs/PROJECT_STORY.md): why each experiment was run, what failed and why this adaptation line stopped.
+2. Read the [success and termination protocols](docs/EVALUATION_PROTOCOLS.md). Early goal attainment is not complete finishing.
+3. Inspect [case reconciliation](docs/CASE_RECONCILIATION.md), [main tables](tables/summary.csv) and [paired repairs/regressions](tables/transitions.csv).
+4. Browse the [historical evaluation runner](experiments/README.md) and [later diagnostic videos](videos/README.md). The eight clips explain the later finishing experiments only; public playback remains unverified.
+5. Read the [dated report](report/research_report.pdf), supplemented by the protocol notes above, and reproduce the recorded calculations below.
 
 ## Reproduce the tables from included evidence
 
